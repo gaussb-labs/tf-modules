@@ -1,0 +1,2 @@
+examples/gcp-compute-instance-usage/.terraform.lock.hcl
+examples/gcp-compute-instance-usage/.terraform/
