@@ -1,0 +1,9 @@
+{
+  "name": "@terraform-modules/firewall-rules",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo testing firewall with version: $npm_package_version"
+  }
+}

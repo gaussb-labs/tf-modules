@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "workspaces": [
+    "modules/*"
+  ],
+  "scripts": {
+    "test": "lerna run test",
+    "new-version": "lerna version --conventional-commits --yes"
+  },
+  "devDependencies": {
+    "lerna": "^5.0.0"
+  },
+  "name": "terraform-modules"
+}
