@@ -11,7 +11,7 @@ on:
       - .github/workflows/firewall-rules.yml
       - modules/firewall-rules/**
     branches:
-      - master
+      - main
 
 jobs:
   lint:

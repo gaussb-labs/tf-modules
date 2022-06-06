@@ -11,7 +11,7 @@ on:
       - .github/workflows/gcp-compute-instance.yml
       - modules/gcp-compute-instance/**
     branches:
-      - master
+      - main
 
 jobs:
   lint:
