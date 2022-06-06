@@ -4,8 +4,9 @@
     "modules/*"
   ],
   "scripts": {
-    "test": "lerna run test",
-    "new-version": "lerna version --conventional-commits --yes"
+    "diff": "lerna diff modules",
+    "new-version": "lerna version --conventional-commits --yes",
+    "publish": "lerna publish modules"
   },
   "devDependencies": {
     "lerna": "^5.0.0"
