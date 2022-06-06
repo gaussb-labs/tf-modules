@@ -15,6 +15,8 @@ jobs:
         id: changelog
         uses: TriPSs/conventional-changelog-action@v3.7.1
         with:
+          prefix: module1-
+          log-path: module1/
           github-token: ${{ secrets.GITHUB_TOKEN }}
           version-file: './package.json,./package-lock.json'
 
@@ -24,6 +26,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
+          prefix: module1-
+          log-path: module1/
           tag_name: ${{ steps.changelog.outputs.tag }}
           release_name: ${{ steps.changelog.outputs.tag }}
           body: ${{ steps.changelog.outputs.clean_changelog }}
