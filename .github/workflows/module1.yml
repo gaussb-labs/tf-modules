@@ -11,7 +11,7 @@ on:
       - .github/workflows/module1.yml
       - module1/**
     branches:
-      - master
+      - main
 
 jobs:
   lint:
