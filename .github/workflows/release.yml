@@ -1,19 +1,29 @@
-# Name of the workflow
-name: Release
-
-# Run on every commit tag which begins with "v" (e.g., "v0.1.4")
+name: Releases
 on:
   push:
-    tags:
-      - "v*"
+    branches:
+      - main
 
-# Automatically create a GitHub Release, with release details specified (the relevant commits)
 jobs:
-  release:
-    name: "Release"
-    runs-on: "ubuntu-latest"
+  changelog:
+    runs-on: ubuntu-latest
+
     steps:
-      - uses: "marvinpinto/action-automatic-releases@latest"
+      - uses: actions/checkout@v2
+
+      - name: conventional Changelog Action
+        id: changelog
+        uses: TriPSs/conventional-changelog-action@v3.7.1
         with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          prerelease: false
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          version-file: './package.json,./package-lock.json'
+
+      - name: create release
+        uses: actions/create-release@v0.1.0
+        if: ${{ steps.changelog.outputs.skipped == 'false' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.changelog.outputs.tag }}
+          release_name: ${{ steps.changelog.outputs.tag }}
+          body: ${{ steps.changelog.outputs.clean_changelog }}

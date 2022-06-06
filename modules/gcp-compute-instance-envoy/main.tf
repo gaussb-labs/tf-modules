@@ -22,4 +22,9 @@ resource "google_compute_instance" "compute_instance" {
     email  = var.service_account_email
     scopes = ["cloud-platform"]
   }
+
+  provisioner "file" {
+    source      = "envoyv3.yaml"
+    destination = "/etc/envoy/"
+  }
 }
