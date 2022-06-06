@@ -18,8 +18,8 @@ variable "network_name" {
 }
 
 variable "instance_name" {
-  default = "reimbursement-envoy-instance"
-  type = string
+  default = "p-envoy-01"
+  type    = string
 }
 
 variable "service_account_email" {
@@ -34,4 +34,6 @@ variable "machine_type" {
   default = "f1-micro"
 }
 
+variable "envoy_public_key" {}
 
+variable "envoy_private_key" {}
