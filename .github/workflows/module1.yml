@@ -5,13 +5,13 @@ on:
   pull_request:
     paths:
       - .github/workflows/module1.yml
-        - module1/**
+      - module1/**
   push:
     paths:
       - .github/workflows/module1.yml
-        - module1/**
+      - module1/**
     branches:
-      - main
+      - master
 
 jobs:
   lint:
