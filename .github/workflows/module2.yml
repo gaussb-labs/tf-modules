@@ -4,12 +4,12 @@ name: Version Module 2
 on:
   pull_request:
     paths:
-      - .github/workflows/gcp-compute-instance.yml
-      - modules/gcp-compute-instance/**
+      - .github/workflows/module2.yml
+        - module2/**
   push:
     paths:
-      - .github/workflows/gcp-compute-instance.yml
-      - modules/gcp-compute-instance/**
+      - .github/workflows/module2.yml
+        - module2/**
     branches:
       - main
 
@@ -26,5 +26,5 @@ jobs:
       - name: Git Version
         uses: codacy/git-version@2.2.0
         with:
-          prefix: v-
-          log-path: modules/gcp-compute-instance/
+          prefix: module2-
+         log-path: module2/
