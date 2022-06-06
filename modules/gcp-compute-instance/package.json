@@ -1,9 +1,6 @@
 {
   "name": "@terraform-modules/gcp-compute-instance",
-  "version": "1.0.1",
+  "version": "0.0.0",
   "main": "index.js",
-  "license": "MIT",
-  "scripts": {
-    "test": "echo testing firewall with version: $npm_package_version"
-  }
+  "license": "MIT"
 }

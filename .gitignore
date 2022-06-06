@@ -1,3 +1,5 @@
 examples/gcp-compute-instance-usage/.terraform.lock.hcl
 examples/gcp-compute-instance-usage/.terraform/
 .idea
+node_modules
+tag-release
