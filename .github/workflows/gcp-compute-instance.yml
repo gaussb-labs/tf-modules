@@ -1,0 +1,30 @@
+# .github/workflows/module2.yml
+name: Version Module 2
+
+on:
+  pull_request:
+    paths:
+      - .github/workflows/gcp-compute-instance.yml
+      - modules/gcp-compute-instance/**
+  push:
+    paths:
+      - .github/workflows/gcp-compute-instance.yml
+      - modules/gcp-compute-instance/**
+    branches:
+      - master
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}   # checkout the correct branch name
+          fetch-depth: 0                # fetch the whole repo history
+
+      - name: Git Version
+        uses: codacy/git-version@2.2.0
+        with:
+          prefix: v-
+          log-path: modules/gcp-compute-instance/

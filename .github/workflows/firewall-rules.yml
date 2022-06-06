@@ -1,0 +1,30 @@
+# .github/workflows/module1.yml
+name: Version Module 1
+
+on:
+  pull_request:
+    paths:
+      - .github/workflows/firewall-rules.yml
+      - modules/firewall-rules/**
+  push:
+    paths:
+      - .github/workflows/firewall-rules.yml
+      - modules/firewall-rules/**
+    branches:
+      - master
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}   # checkout the correct branch name
+          fetch-depth: 0                # fetch the whole repo history
+
+      - name: Git Version
+        uses: codacy/git-version@2.2.0
+        with:
+          prefix: v-
+          log-path: modules/firewall-rules/
