@@ -19,7 +19,7 @@ jobs:
           version-file: './package.json,./package-lock.json'
 
       - name: create release
-        uses: actions/create-release@v0.1.0
+        uses: actions/create-release@v1
         if: ${{ steps.changelog.outputs.skipped == 'false' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
