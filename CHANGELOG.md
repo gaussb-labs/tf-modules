@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0-beta.1](https://github.com/gaussb-labs/tf-modules/compare/v1.1.0-beta.0...v1.1.0-beta.1) (2022-06-07)
+
+
+### Bug Fixes
+
+* change description in output.tf ([b8c2523](https://github.com/gaussb-labs/tf-modules/commit/b8c2523c8a9204f939fc9b182b013262ac46a28b))
+
+
+
+
+
 # [1.1.0-beta.0](https://github.com/gaussb-labs/tf-modules/compare/v1.1.0...v1.1.0-beta.0) (2022-06-07)
 
 
