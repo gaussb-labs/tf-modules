@@ -14,6 +14,7 @@
   },
   "name": "terraform-modules",
   "dependencies": {
-    "semver": "^7.3.7"
+    "semver": "^7.3.7",
+    "user": "^0.0.0"
   }
 }
