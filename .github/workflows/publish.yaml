@@ -21,8 +21,8 @@ jobs:
           uses: actions/setup-node@v2
           with:
             node-version: '16'
-        - name: "whoami"
-          run: npm whoami
+        - name: "npm add user"
+          run: npm add user 
 
         - name: "Version and publish"
           env:
