@@ -41,4 +41,4 @@ jobs:
               npx lerna version --conventional-commits --conventional-graduate --yes
             fi
             
-            npx lerna publish from-git --yes
+            npm run publish-npm from-git --yes

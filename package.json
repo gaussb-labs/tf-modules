@@ -4,6 +4,7 @@
     "modules/*"
   ],
   "scripts": {
+    "publish-npm": "lerna publish --skip-npm && lerna run publish-npm",
     "diff": "lerna diff ",
     "new-version": "lerna version --conventional-commits --yes",
     "publish": "lerna publish --scope @terraform-modules/gcp-compute-instance"
