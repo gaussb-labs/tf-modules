@@ -5120,6 +5120,11 @@
   "resolved" "https://registry.npmjs.org/url-join/-/url-join-4.0.1.tgz"
   "version" "4.0.1"
 
+"user@^0.0.0":
+  "integrity" "sha1-8n8bI/xRHyqO+kDbVc+6Ejgk4Co="
+  "resolved" "https://registry.npmjs.org/user/-/user-0.0.0.tgz"
+  "version" "0.0.0"
+
 "util-deprecate@^1.0.1", "util-deprecate@~1.0.1":
   "integrity" "sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8="
   "resolved" "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
