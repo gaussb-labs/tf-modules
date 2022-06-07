@@ -1,7 +1,6 @@
 {
   "name": "@terraform-modules/gcp-compute-instance",
   "version": "1.2.0",
-  "main": "index.js",
   "repository": "https://github.com/gaussb-labs/tf-modules/",
   "license": "MIT",
   "publishConfig": {
