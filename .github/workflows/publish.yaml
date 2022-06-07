@@ -22,12 +22,6 @@ jobs:
           with:
             node-version: '16'
 
-        - name: "Npm login"
-          env:
-            USERNAME: "sandeepsaini"
-            PASSWORD: "saini_9773"
-            EMAIL: "sandeepsaini85113@gmail.com"
-          run: npm login
 
         - name: "Version and publish" # Interesting step
           env:
