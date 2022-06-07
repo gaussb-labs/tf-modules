@@ -9,6 +9,9 @@
     "new-version": "lerna version --conventional-commits --yes",
     "publish": "lerna publish --scope @terraform-modules/gcp-compute-instance"
   },
+  "publishConfig": {
+    "@gaussb-labs:registry": "https://npm.pkg.github.com"
+  },
   "devDependencies": {
     "lerna": "^5.0.0",
     "semantic-release-lerna": "^0.5.0"
