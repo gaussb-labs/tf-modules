@@ -1,0 +1,19 @@
+{
+  "private": false,
+  "workspaces": [
+    "modules/*"
+  ],
+  "scripts": {
+    "diff": "lerna diff ",
+    "new-version": "lerna version --conventional-commits --yes",
+    "publish": "lerna publish"
+  },
+  "devDependencies": {
+    "lerna": "^5.0.0",
+    "semantic-release-lerna": "^0.5.0"
+  },
+  "name": "terraform-modules",
+  "dependencies": {
+    "semver": "^7.3.7"
+  }
+}
