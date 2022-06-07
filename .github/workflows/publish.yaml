@@ -12,22 +12,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: "Checkout"
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
+        - name: "Checkout"
+          uses: actions/checkout@v2
+          with:
+            fetch-depth: 0
 
-      - name: "Use NodeJS 16"
-        uses: actions/setup-node@v2
-        with:
-          node-version: '16'
+        - name: "Use NodeJS 16"
+          uses: actions/setup-node@v2
+          with:
+            node-version: '16'
 
-        - name: "Npm login"
-          env:
-            USERNAME: "sandeepsaini"
-            PASSWORD: "saini_9773"
-            EMAIL: "sandeepsaini85113@gmail.com"
-          run: npm login
 
         - name: "Version and publish" # Interesting step
           env:
