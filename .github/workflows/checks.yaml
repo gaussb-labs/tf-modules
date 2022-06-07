@@ -24,6 +24,9 @@ jobs:
           npm set "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}"
 
       - name: Install dependencies
-        run: | # Install and link dependencies
+        run: | 
           npm ci
           npx lerna bootstrap
+
+      - name: Run tests
+        run: npx lerna exec npm run test
