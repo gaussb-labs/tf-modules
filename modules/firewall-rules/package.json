@@ -1,5 +1,5 @@
 {
-  "name": "@terraform-modules/firewall-rules",
+  "name": "@guassb-labs/firewall-rules",
   "version": "1.2.0",
   "repository": "https://github.com/gaussb-labs/tf-modules/",
   "license": "MIT",
