@@ -22,10 +22,12 @@ jobs:
         with:
           node-version: '16'
 
-      - name: "Setup npm"
-        run: |
-            npm set @sandeepsaini98:registry=https://npm.pkg.github.com/sandeepsaini98
-            npm set "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}"
+     - name: "Npm login"
+      env:
+          USERNAME: "sandeepsaini"
+          PASSWORD: "saini_9773"
+          EMAIL: "sandeepsaini85113@gmail.com"
+         run: npm login  
 
       - name: "Version and publish" # Interesting step
         env:

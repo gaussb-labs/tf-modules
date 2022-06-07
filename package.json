@@ -1,5 +1,5 @@
 {
-  "private": true,
+  "private": false,
   "workspaces": [
     "modules/*"
   ],
@@ -11,5 +11,8 @@
   "devDependencies": {
     "lerna": "^5.0.0"
   },
-  "name": "terraform-modules"
+  "name": "terraform-modules",
+  "dependencies": {
+    "semver": "^7.3.7"
+  }
 }
