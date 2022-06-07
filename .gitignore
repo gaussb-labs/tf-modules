@@ -3,3 +3,4 @@ examples/gcp-compute-instance-usage/.terraform/
 .idea
 node_modules
 tag-release
+lerna-debug.log
