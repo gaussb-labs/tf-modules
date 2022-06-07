@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0-beta.2](https://github.com/gaussb-labs/tf-modules/compare/v1.1.0-beta.1...v1.1.0-beta.2) (2022-06-07)
+
+
+### Bug Fixes
+
+* add setup npm job ([2a0b9ed](https://github.com/gaussb-labs/tf-modules/commit/2a0b9ed5721563e495fc324b0be1be38bfe7d820))
+* add setup npm to publish.yaml ([ae40c97](https://github.com/gaussb-labs/tf-modules/commit/ae40c9771457f84e8fdbb5254753b2613a5ab7e6))
+
+
+
+
+
 # [1.1.0-beta.1](https://github.com/gaussb-labs/tf-modules/compare/v1.1.0-beta.0...v1.1.0-beta.1) (2022-06-07)
 
 
