@@ -22,9 +22,6 @@ jobs:
           with:
             node-version: '16'
 
-        - name: "npm add user"
-          run: npm add user
-
         - name: "git checkout"
           run: git checkout .
 
@@ -41,4 +38,4 @@ jobs:
               npx lerna version --conventional-commits --conventional-graduate --yes
             fi
             
-            npm run publish-npm from-git --yes
+            npm adduser && npm run publish-npm
