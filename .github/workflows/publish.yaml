@@ -21,7 +21,8 @@ jobs:
           uses: actions/setup-node@v2
           with:
             node-version: '16'
-
+        - name: "whoami"
+          run: npm whoami
 
         - name: "Version and publish"
           env:
