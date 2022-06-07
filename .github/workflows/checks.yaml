@@ -20,8 +20,8 @@ jobs:
 
       - name: "Setup npm"
         run: |
-          npm set @sandeepsaini98:registry=https://npm.pkg.github.com/sandeepsaini98
-          npm set "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}"
+          npm set @gaussb-labs:registry=https://npm.pkg.github.com/gaussb-labs
+          npm set "//npm.pkg.github.com/:_authToken=${{ secrets.NPM_AUTOMATION_SECRET_TOKEN }}"
 
       - name: Install dependencies
         run: | 
