@@ -21,8 +21,12 @@ jobs:
           uses: actions/setup-node@v2
           with:
             node-version: '16'
+            
         - name: "npm add user"
-          run: npm add user 
+          run: npm add user
+
+        -name: "git checkout"
+          run: git checkout .
 
         - name: "Version and publish"
           env:

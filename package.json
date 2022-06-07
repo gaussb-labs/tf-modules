@@ -9,7 +9,8 @@
     "publish": "lerna publish"
   },
   "devDependencies": {
-    "lerna": "^5.0.0"
+    "lerna": "^5.0.0",
+    "semantic-release-lerna": "^0.5.0"
   },
   "name": "terraform-modules",
   "dependencies": {
