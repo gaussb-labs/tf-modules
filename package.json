@@ -21,7 +21,18 @@
     "noCi": true
   },
   "devDependencies": {
-    "multi-semantic-release": "^2.13.0"
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.4",
+    "@semantic-release/npm": "github:semantic-release/npm",
+    "@semantic-release/release-notes-generator": "github:semantic-release/release-notes-generator",
+    "lerna": "^5.1.0",
+    "multi-semantic-release": "^2.13.0",
+    "semantic-release": "^19.0.2",
+    "semantic-release-monorepo": "^7.0.5",
+    "semantic-release-monorepo-hooks": "^2.10.0",
+    "semantic-release-plugin-decorators": "^3.0.1"
   },
   "repository": {
     "type": "git",
