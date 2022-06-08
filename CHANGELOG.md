@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/gaussb-labs/tf-modules/compare/v1.0.5...v1.1.0) (2022-06-08)
+
+
+### Features
+
+* trying out new feature ([5936e69](https://github.com/gaussb-labs/tf-modules/commit/5936e69eec7ab92b595149b8679a423b2fb3248d))
+
+
+### Bug Fixes
+
+* **parsing:** fixed a bug in our parser ([f16e3fc](https://github.com/gaussb-labs/tf-modules/commit/f16e3fc9750dc7fa8ec0e0c7c872ab3102c6236b))
+
 ### [1.0.5](https://github.com/gaussb-labs/tf-modules/compare/v1.0.4...v1.0.5) (2022-06-08)
 
 ### [1.0.4](https://github.com/gaussb-labs/tf-modules/compare/v1.0.3...v1.0.4) (2022-06-08)
