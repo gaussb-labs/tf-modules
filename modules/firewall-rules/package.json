@@ -4,7 +4,7 @@
   "repository": "https://github.com/gaussb-labs/tf-modules/",
   "license": "MIT",
   "publishConfig": {
-    "@gaussb-labs:registry": "https://npm.pkg.github.com/gaussb-labs"
+    "@gaussb-labs:registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "publish-npm": "npm publish --access public",
