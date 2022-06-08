@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/gaussb-labs/tf-modules/compare/v1.0.0...v1.0.1) (2022-06-08)
+
+
+### Bug Fixes
+
+* add release workflow ([42cd08b](https://github.com/gaussb-labs/tf-modules/commit/42cd08bfeaaaf1860d86eb50ebe671780cea75da))
+
 # 1.0.0 (2022-06-08)
 
 
