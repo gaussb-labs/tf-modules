@@ -10,7 +10,7 @@
     "publish": "lerna publish --scope @terraform-modules/gcp-compute-instance"
   },
   "publishConfig": {
-    "@gaussb-labs:registry": "https://npm.pkg.github.com/gaussb-labs"
+    "@gaussb-labs:registry": "https://npm.pkg.github.com"
   },
   "devDependencies": {
     "lerna": "^5.0.0",
