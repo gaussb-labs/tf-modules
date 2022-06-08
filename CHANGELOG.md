@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/gaussb-labs/tf-modules/compare/v1.0.0...v1.0.1) (2022-06-08)
+
+
+### Bug Fixes
+
+* uncoment publish.yml ([343426c](https://github.com/gaussb-labs/tf-modules/commit/343426cd90658a867cc35579fbe849238699f78c))
+
 # 1.0.0 (2022-06-08)
 
 
