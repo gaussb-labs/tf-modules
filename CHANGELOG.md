@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/gaussb-labs/tf-modules/compare/v1.0.5...v1.0.6) (2022-06-08)
+
+
+### Bug Fixes
+
+* add npx semantic release to workflow ([6467836](https://github.com/gaussb-labs/tf-modules/commit/6467836762c59d01df33c94ccc6aeaff5854d4f2))
+
 ## [1.0.1](https://github.com/gaussb-labs/tf-modules/compare/v1.0.0...v1.0.1) (2022-06-08)
 
 
