@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/gaussb-labs/tf-modules/compare/v1.0.6...v1.1.0) (2022-06-08)
+
+
+### Features
+
+* testing new feature ([078cf22](https://github.com/gaussb-labs/tf-modules/commit/078cf228ff23d9be0e3a26578f71f380751ba47a))
+
 ## [1.0.6](https://github.com/gaussb-labs/tf-modules/compare/v1.0.5...v1.0.6) (2022-06-08)
 
 
