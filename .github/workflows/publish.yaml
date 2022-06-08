@@ -38,4 +38,4 @@ jobs:
               npx lerna version --conventional-commits --conventional-graduate --yes
             fi
             
-             npx lerna publish from-git --yes --no-verify-access
+             npx lerna publish from-git --yes --no-verify-access  --registry https://npm.pkg.github.com
