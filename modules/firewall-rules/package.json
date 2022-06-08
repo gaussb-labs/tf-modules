@@ -1,6 +1,6 @@
 {
-  "name": "firewall-rules",
-  "version": "1.3.6",
+  "name": "@gaussb-labs/firewall-rules",
+  "version": "1.3.6-beta.0",
   "repository": "https://github.com/gaussb-labs/tf-modules/",
   "license": "MIT",
   "publishConfig": {
