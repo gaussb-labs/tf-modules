@@ -5,3 +5,4 @@ node_modules
 tag-release
 lerna-debug.log
 yarn-error.log
+yarn.lock
