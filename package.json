@@ -28,5 +28,5 @@
     "@semantic-release/release-notes-generator": "^10.0.3",
     "semantic-release": "^19.0.2"
   },
-  "version": "1.0.1"
+  "version": "1.0.6"
 }
