@@ -26,11 +26,4 @@ jobs:
 
       - name: Release
         if: ${{ github.ref == 'refs/heads/master' && !startsWith(github.event.head_commit.message, 'chore(release):') && !startsWith(github.event.head_commit.message, 'docs:') }}
-        shell: 'script -q -e -c "bash {0}" > /dev/null'
-        env:
-          CONVENTIONAL_GITHUB_RELEASER_TOKEN: ${{ secrets.GH_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: |
-          git config --global user.email sandeepsaini85113@gmail.com
-          git config --global user.name sandeepsaini98
-          npm run release
+        run: npm run prerelease && npx run release && npx run release:tags && npx run postrelease

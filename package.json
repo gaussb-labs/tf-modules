@@ -51,11 +51,11 @@
     "semantic-release": "semantic-release",
     "test": "c8 ava",
     "contributors": "(git-authors-cli && finepack && git add package.json && git commit -m 'build: contributors' --no-verify) || true",
-    "postrelease": "npm run release:tags && npm run release:github && (ci-publish || npm publish --access=public)",
+    "postrelease": "npm run release:tags && npm run release:github",
     "prerelease": "npm run update:check && npm run contributors",
     "release:github": "conventional-github-releaser -p angular",
     "release:tags": "git push --follow-tags origin HEAD:master",
-    "release": "standard-version -a",
+    "release": "standard-version",
     "update:check": "ncu -- --error-level 2",
     "update": "ncu -u"
   },
