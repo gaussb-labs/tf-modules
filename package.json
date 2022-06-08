@@ -1,13 +1,5 @@
 {
-  "name": "module-releases",
-  "author": "gaussb-labs",
-  "version": "0.0.0-semantically-released",
-  "private": true,
-  "license": "0BSD",
-  "engines": {
-    "node": ">=10.18",
-    "yarn": ">=1.0.0"
-  },
+  "name": "semantic-release",
   "workspaces": [
     "modules/*",
     "!examples",
@@ -16,26 +8,25 @@
   "release": {
     "plugins": [
       "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator"
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
+      "@semantic-release/changelog",
+      "@semantic-release/git"
     ],
-    "noCi": true
+    "branch": "master"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^8.0.4",
-    "@semantic-release/npm": "github:semantic-release/npm",
-    "@semantic-release/release-notes-generator": "github:semantic-release/release-notes-generator",
-    "lerna": "^5.1.0",
-    "multi-semantic-release": "^2.13.0",
-    "semantic-release": "^19.0.2",
-    "semantic-release-monorepo": "^7.0.5",
-    "semantic-release-monorepo-hooks": "^2.10.0",
-    "semantic-release-plugin-decorators": "^3.0.1"
+    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "semantic-release": "^19.0.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gaussb-labs/tf-modules.git"
-  }
+  "version": "1.3.7"
 }
