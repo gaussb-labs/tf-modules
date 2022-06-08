@@ -29,6 +29,7 @@
     "cz-lerna-changelog": "^2.0.3",
     "semantic-release": "^19.0.2"
   },
+
   "version": "1.1.0",
   "main": "index.js",
   "repository": "git@github.com:gaussb-labs/tf-modules.git",
