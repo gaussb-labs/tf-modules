@@ -29,7 +29,7 @@
     "cz-lerna-changelog": "^2.0.3",
     "semantic-release": "^19.0.2"
   },
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "main": "index.js",
   "repository": "git@github.com:gaussb-labs/tf-modules.git",
   "author": "SandeepSaini <sandeepsaini85113@gmail.com>",
@@ -38,5 +38,8 @@
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
     }
+  },
+  "scripts": {
+    "semantic-release": "semantic-release"
   }
 }
