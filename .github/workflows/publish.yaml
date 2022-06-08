@@ -38,4 +38,4 @@ jobs:
               npx lerna version --conventional-commits --conventional-graduate --yes
             fi
             
-            npm adduser && npm run publish-npm
+             npx lerna publish from-git --yes
