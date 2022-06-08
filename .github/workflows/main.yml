@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  test:
+  release:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -21,9 +21,7 @@ jobs:
         with:
           node-version: lts/*
       - name: Install
-        run: npm install --no-package-lock
-
+        run: npm install
 
       - name: Release
-        if: ${{ github.ref == 'refs/heads/master' && !startsWith(github.event.head_commit.message, 'chore(release):') && !startsWith(github.event.head_commit.message, 'docs:') }}
         run: npm run prerelease && npx run release && npx run release:tags && npx run postrelease
