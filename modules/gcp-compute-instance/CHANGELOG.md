@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.7-beta.0](https://github.com/gaussb-labs/tf-modules/compare/v1.3.6...v1.3.7-beta.0) (2022-06-08)
+
+**Note:** Version bump only for package @gaussb-labs/gcp-compute-instance
+
+
+
+
+
+## [1.3.6](https://github.com/gaussb-labs/tf-modules/compare/v1.3.6-beta.0...v1.3.6) (2022-06-08)
+
+**Note:** Version bump only for package gcp-compute-instance
+
+
+
+
+
 ## [1.3.6-beta.0](https://github.com/gaussb-labs/tf-modules/compare/v1.3.5...v1.3.6-beta.0) (2022-06-08)
 
 **Note:** Version bump only for package gcp-compute-instance
