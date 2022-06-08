@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.5-beta.0](https://github.com/gaussb-labs/tf-modules/compare/v1.3.4...v1.3.5-beta.0) (2022-06-08)
+
+**Note:** Version bump only for package terraform-modules
+
+
+
+
+
+## [1.3.4](https://github.com/gaussb-labs/tf-modules/compare/v1.3.4-beta.0...v1.3.4) (2022-06-08)
+
+**Note:** Version bump only for package terraform-modules
+
+
+
+
+
 ## [1.3.4-beta.0](https://github.com/gaussb-labs/tf-modules/compare/v1.3.3...v1.3.4-beta.0) (2022-06-08)
 
 **Note:** Version bump only for package terraform-modules
