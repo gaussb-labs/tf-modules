@@ -4,3 +4,4 @@ examples/gcp-compute-instance-usage/.terraform/
 node_modules
 tag-release
 lerna-debug.log
+yarn-error.log
