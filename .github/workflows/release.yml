@@ -1,7 +1,7 @@
 on:
   push:
-    tags:
-      - 'v*'
+    branches:
+      - main
 
 name: Create Release
 
@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+      - name: Create tags
+        run: npx semantic-release --branches main --no-ci
       - name: Create release
         id: create_release
         uses: actions/create-release@v1
