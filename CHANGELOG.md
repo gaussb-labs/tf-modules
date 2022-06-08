@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/gaussb-labs/tf-modules/compare/v1.0.1...v1.0.2) (2022-06-08)
+
+
+### Bug Fixes
+
+* add xyz.text firewall rules ([ecadf68](https://github.com/gaussb-labs/tf-modules/commit/ecadf68583bf8c2a696a0a48c4fbc67aabb3dfba))
+
 ## [1.0.1](https://github.com/gaussb-labs/tf-modules/compare/v1.0.0...v1.0.1) (2022-06-08)
 
 
