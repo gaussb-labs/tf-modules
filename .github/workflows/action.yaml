@@ -35,7 +35,7 @@ jobs:
           modules_list: ${{ steps.get-files-changed.outputs.FOLDERS_LIST }}
           provider: "gcp"
           namespace: "gaussb"
-          token: ${{ secrets.TF_CLOUD_API_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           recreate: "false"
           base_version: "1.0.0"
           autobump: "true"
