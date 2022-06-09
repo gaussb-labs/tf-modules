@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/gaussb-labs/tf-modules/compare/v1.1.0...v1.1.2) (2022-06-09)
+
+
+### Bug Fixes
+
+* add main.yml ([859bef0](https://github.com/gaussb-labs/tf-modules/commit/859bef0a6f03b1d8197d38b8a7243228c1a81035))
+* add main.yml and remove action.yaml, publish.yml ([e7d4a87](https://github.com/gaussb-labs/tf-modules/commit/e7d4a875cb29d77f350a1ea622b93d66c1ca202c))
+* change branch to main in main.yml ([06443ed](https://github.com/gaussb-labs/tf-modules/commit/06443edeff182890e5fc729293a9ac7255e262f4))
+* remove if condition from release jobs ([cc1bb58](https://github.com/gaussb-labs/tf-modules/commit/cc1bb58502e4d66daf338edb01d424f19c78c16c))
+
 ### [1.1.1](https://github.com/gaussb-labs/tf-modules/compare/v1.1.0...v1.1.1) (2022-06-09)
 
 

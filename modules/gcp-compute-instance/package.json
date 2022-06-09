@@ -1,11 +1,12 @@
 {
-  "name": "@gaussblabs/firewall-rules",
+  "name": "@gaussblabs/gcp-compute-instance",
   "version": "1.0.0",
-  "description": "",
+  "description": "This module creates a Google Cloud Platform instance",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC"
 }
