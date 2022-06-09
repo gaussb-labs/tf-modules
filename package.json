@@ -1,5 +1,5 @@
 {
-  "name": "semantic-release",
+  "name": "terraform-modules",
   "workspaces": [
     "modules/*",
     "!examples",
@@ -21,15 +21,11 @@
     "branch": "master"
   },
   "devDependencies": {
-    "@commitlint/cli": "latest",
-    "@commitlint/config-conventional": "latest",
     "ava": "latest",
     "c8": "latest",
     "ci-publish": "latest",
-    "conventional-github-releaser": "latest",
     "finepack": "latest",
     "git-authors-cli": "latest",
-    "nano-staged": "latest",
     "npm-check-updates": "latest",
     "prettier-standard": "latest",
     "simple-git-hooks": "latest",
@@ -39,8 +35,14 @@
   },
   "version": "1.1.0",
   "main": "index.js",
-  "repository": "git@github.com:gaussb-labs/tf-modules.git",
-  "author": "SandeepSaini <sandeepsaini85113@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gaussb-labs/tf-modules.git"
+  },
+  "author": {
+    "name": "SandeepSaini",
+    "email": "sandeepsaini85113@gmail.com"
+  },
   "license": "MIT",
   "config": {
     "commitizen": {
@@ -53,19 +55,31 @@
     "contributors": "(git-authors-cli && finepack && git add package.json && git commit -m 'build: contributors' --no-verify) || true",
     "postrelease": "npm run release:tags && npm run release:github",
     "prerelease": "npm run update:check && npm run contributors",
-    "release:github": "conventional-github-releaser -p angular",
     "release:tags": "git push --follow-tags origin HEAD:master",
     "release": "standard-version",
     "update:check": "ncu -- --error-level 2",
     "update": "ncu -u"
   },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
+  "contributors": [
+    {
+      "name": "SandeepSaini",
+      "email": "sandeepsaini85113@gmail.com"
+    },
+    {
+      "name": "sandeepsaini98",
+      "email": "sandeepsaini98@users.noreply.github.com"
+    },
+    {
+      "name": "Conventional Changelog Action",
+      "email": "conventional.changelog.action@github.com"
+    },
+    {
+      "name": "Vijay Dhama",
+      "email": "vjdhama26@gmail.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/gaussb-labs/tf-modules/issues"
   },
-  "simple-git-hooks": {
-    "commit-msg": "npx commitlint --edit",
-    "pre-commit": "npx nano-staged"
-  }
+  "homepage": "https://github.com/gaussb-labs/tf-modules#readme"
 }
