@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/gaussb-labs/tf-modules/compare/v1.1.4...v1.1.5) (2022-06-09)
+
+
+### Bug Fixes
+
+* modify xyz.text ([ee0285d](https://github.com/gaussb-labs/tf-modules/commit/ee0285dd3da2a678442c2fd9d381814993045c3b))
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
