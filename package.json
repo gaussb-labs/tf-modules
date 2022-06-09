@@ -33,7 +33,7 @@
     "standard-markdown": "latest",
     "standard-version": "latest"
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -61,10 +61,6 @@
     "update": "ncu -u"
   },
   "contributors": [
-    {
-      "name": "SandeepSaini",
-      "email": "sandeepsaini85113@gmail.com"
-    },
     {
       "name": "sandeepsaini98",
       "email": "sandeepsaini98@users.noreply.github.com"
