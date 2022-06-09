@@ -1,14 +1,9 @@
 {
   "name": "terraform-modules",
   "workspaces": [
-    "modules/*",
-    "!examples",
-    "!.github"
-  ],
-  "files": [
-    "examples",
-    "node_modules",
-    ".github"
+    "modules/firewall-rules",
+    "modules/gcp-compute-instance",
+    "modules/gcp-compute-instance-envoy"
   ],
   "release": {
     "plugins": [
