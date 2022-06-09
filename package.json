@@ -5,6 +5,11 @@
     "!examples",
     "!.github"
   ],
+  "files": [
+    "examples",
+    "node_modules",
+    ".github"
+  ],
   "release": {
     "plugins": [
       "@semantic-release/commit-analyzer",
@@ -56,15 +61,10 @@
     }
   },
   "scripts": {
-    "semantic-release": "semantic-release",
-    "test": "c8 ava",
-    "contributors": "(git-authors-cli && finepack && git add package.json && git commit -m 'build: contributors' --no-verify) || true",
     "postrelease": "npm run release:tags && npm run release:github",
-    "prerelease": "npm run update:check && npm run contributors",
+    "prerelease": "npm run update:check",
     "release:tags": "git push --follow-tags origin HEAD:main",
-    "release": "standard-version",
-    "update:check": "ncu -- --error-level 2",
-    "update": "ncu -u"
+    "release": "standard-version"
   },
   "contributors": [
     {
