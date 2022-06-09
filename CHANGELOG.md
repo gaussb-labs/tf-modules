@@ -1,3 +1,14 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### 1.2.4 (2022-06-09)
+
+
+### Bug Fixes
+
+* add git config username and email ([40ba1f1](https://github.com/gaussb-labs/tf-modules/commit/40ba1f1bcc0a3152e83d609c1110e695c11735ab))
+
 ## [1.2.3](https://github.com/gaussb-labs/tf-modules/compare/v1.2.2...v1.2.3) (2022-06-09)
 
 
