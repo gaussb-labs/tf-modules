@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/gaussb-labs/tf-modules/compare/v1.2.1...v1.2.2) (2022-06-09)
+
+
+### Bug Fixes
+
+* change npx to npm in run command ([97e6235](https://github.com/gaussb-labs/tf-modules/commit/97e62356216dc73bd81595332f94e702584c5315))
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
