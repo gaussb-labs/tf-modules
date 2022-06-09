@@ -1,6 +1,6 @@
 {
   "name": "@gaussblabs/gcp-compute-instance",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "This module creates a Google Cloud Platform instance",
   "main": "index.js",
   "scripts": {
