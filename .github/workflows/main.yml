@@ -24,4 +24,4 @@ jobs:
         run: npm install
 
       - name: Release
-        run:  npm run release && npm run release:tags && npm run postrelease
+        run:   git config --global user.email "gaussb@bot.com" && git config --global user.name "gaussb-bot" && npm run release && npm run release:tags && npm run postrelease
