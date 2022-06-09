@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/gaussb-labs/tf-modules/compare/v1.2.2...v1.2.3) (2022-06-09)
+
+
+### Bug Fixes
+
+* remove scripts from package.json ([098c6d0](https://github.com/gaussb-labs/tf-modules/commit/098c6d02eb1be82d3f9b5c945ef3146589e75759))
+
 ## [1.2.2](https://github.com/gaussb-labs/tf-modules/compare/v1.2.1...v1.2.2) (2022-06-09)
 
 
