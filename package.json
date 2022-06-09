@@ -62,7 +62,6 @@
   },
   "scripts": {
     "postrelease": "npm run release:tags && npm run release:github",
-    "prerelease": "npm run update:check",
     "release:tags": "git push --follow-tags origin HEAD:main",
     "release": "standard-version"
   },
