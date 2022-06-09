@@ -21,6 +21,11 @@
     "branch": "master"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
     "ava": "latest",
     "c8": "latest",
     "ci-publish": "latest",
@@ -28,6 +33,7 @@
     "git-authors-cli": "latest",
     "npm-check-updates": "latest",
     "prettier-standard": "latest",
+    "semantic-release": "^19.0.3",
     "simple-git-hooks": "latest",
     "standard": "latest",
     "standard-markdown": "latest",
