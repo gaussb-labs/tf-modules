@@ -24,4 +24,4 @@ jobs:
         run: npm install
 
       - name: Release
-        run: npx run prerelease && npx run release && npx run release:tags && npx run postrelease
+        run: npm run prerelease && npm run release && npm run release:tags && npm run postrelease
