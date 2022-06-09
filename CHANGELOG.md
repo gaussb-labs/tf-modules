@@ -1,3 +1,11 @@
+## [1.2.1](https://github.com/gaussb-labs/tf-modules/compare/v1.2.0...v1.2.1) (2022-06-09)
+
+
+### Bug Fixes
+
+* resolve merge conflicts ([5f38447](https://github.com/gaussb-labs/tf-modules/commit/5f3844770283a16aee5f20b6d27efe5ad968013b))
+* testing versioning ([5bd62d1](https://github.com/gaussb-labs/tf-modules/commit/5bd62d1225315e353fd7397a192349a77932f42d))
+
 ## [1.1.5](https://github.com/gaussb-labs/tf-modules/compare/v1.1.4...v1.1.5) (2022-06-09)
 
 
