@@ -2,8 +2,7 @@
   "name": "terraform-modules",
   "workspaces": [
     "modules/firewall-rules",
-    "modules/gcp-compute-instance",
-    "modules/gcp-compute-instance-envoy"
+    "modules/gcp-compute-instance"
   ],
   "release": {
     "plugins": [
